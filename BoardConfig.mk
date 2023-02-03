@@ -136,11 +136,11 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 ODM_MANIFEST_SKUS += \
     begonia
 
-ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/manifest_begonia.xml
+ODM_MANIFEST_BEGONIA_FILES := $(DEVICE_PATH)/configs/hidl/manifest_begonia.xml
 
 # Treble
 TARGET_COPY_OUT_VENDOR := vendor
